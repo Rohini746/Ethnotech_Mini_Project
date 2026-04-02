@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    text-align: center;
+    background: linear-gradient(to right, #141e30, #243b55);
+    color: white;
+}
+
+h1 {
+    margin-top: 30px;
+}
+
+/* 3D space */
+.scene {
+    width: 500px;
+    height: 500px;
+    margin: 80px auto;
+    perspective: 1200px;
+}
+
+/* rotating carousel */
+.carousel {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    animation: rotate 12s infinite linear;
+}
+
+/* images (BIG + CLEAR) */
+.carousel img {
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    left: 160px;
+    top: 160px;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+/* circular 3D placement */
+.carousel img:nth-child(1) {
+    transform: rotateY(0deg) translateZ(250px);
+}
+.carousel img:nth-child(2) {
+    transform: rotateY(72deg) translateZ(250px);
+}
+.carousel img:nth-child(3) {
+    transform: rotateY(144deg) translateZ(250px);
+}
+.carousel img:nth-child(4) {
+    transform: rotateY(216deg) translateZ(250px);
+}
+.carousel img:nth-child(5) {
+    transform: rotateY(288deg) translateZ(250px);
+}
+
+/* smooth rotation */
+@keyframes rotate {
+    from {
+        transform: rotateY(0deg);
+    }
+    to {
+        transform: rotateY(360deg);
+    }
+}
