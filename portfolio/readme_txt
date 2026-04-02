@@ -1,1 +1,90 @@
+# 💼 Personal Portfolio Website
+
+## 📌 Project Overview
+
+The **Personal Portfolio Website** is a web-based project developed using **HTML, CSS, and JavaScript**.
+This project showcases my skills, projects, and personal information in a structured and visually appealing format.
+
+The main purpose of this portfolio is to create an **online presence** and present my work effectively to recruiters and interviewers.
+
+---
+
+## 🚀 Features
+
+* 👤 About Me section
+* 🛠️ Skills display
+* 📂 Projects showcase
+* 📞 Contact section
+* 🌐 Responsive design (works on mobile and desktop)
+* 🎨 Attractive UI with simple navigation
+
+---
+
+## 🛠️ Technologies Used
+
+* **HTML** – Structure of the website
+* **CSS** – Styling and layout design
+* **JavaScript** – Interactivity and dynamic elements
+
+---
+
+## 📂 Project Structure
+
+```text id="7q4p2f"
+Portfolio-Website/
+│── index.html
+│── style.css
+│── script.js
+│── images/
+```
+
+---
+
+## ▶️ How to Run the Project
+
+1. Download or open the project folder
+2. Open the `index.html` file in any browser
+3. Explore different sections like About, Skills, and Projects
+
+---
+
+## 💡 How It Works
+
+* The website is divided into multiple sections:
+
+  * About Me
+  * Skills
+  * Projects
+  * Contact
+* Navigation allows smooth scrolling between sections
+* JavaScript is used for interactive features like animations or menu handling
+
+---
+
+## ⚠️ Requirements
+
+* A modern web browser (Chrome, Edge, Firefox)
+* No additional installations required
+
+---
+
+## 🎯 Future Enhancements
+
+* 🌐 Add backend for contact form
+* 📊 Include project details with live demos
+* 🌙 Add dark mode feature
+* 🧠 Improve animations and UI design
+
+---
+
+## 🙌 Conclusion
+
+This project demonstrates my ability to build a complete **front-end web application** and present my work professionally.
+It highlights my skills in **web development, UI design, and project structuring**.
+
+---
+
+## 👨‍💻 Author
+
+**Your Name**
 
