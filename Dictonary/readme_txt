@@ -1,1 +1,98 @@
+# 📖 Dictionary Web App
+
+## 📌 Project Overview
+
+The **Dictionary Web App** is a simple and interactive web application built using **HTML, CSS, and JavaScript**.
+It allows users to enter any English word and instantly get its **meaning** along with an **example sentence**.
+
+---
+
+## 🚀 Features
+
+* 🔍 Search for any English word
+* 📘 Displays the **definition (meaning)**
+* 📝 Shows an **example sentence** (if available)
+* ⚡ Fast and responsive user interface
+* ❌ Error handling for invalid or unknown words
+
+---
+
+## 🛠️ Technologies Used
+
+* **HTML** – Structure of the web page
+* **CSS** – Styling and layout
+* **JavaScript** – Logic and API handling
+* **Free Dictionary API** – Fetching word data
+
+---
+
+## 🌐 API Used
+
+This project uses the following free API:
+👉 https://api.dictionaryapi.dev/
+
+---
+
+## 📂 Project Structure
+
+```
+Dictionary-Project/
+│── index.html
+│── style.css
+│── script.js
+```
+
+---
+
+## ▶️ How to Run the Project
+
+1. Download or clone the repository
+2. Open the project folder
+3. Run the `index.html` file in your browser
+4. Enter a word in the input box
+5. Click the search button to view results
+
+---
+
+## 💡 How It Works
+
+* The user enters a word in the input field
+* JavaScript sends a request to the dictionary API
+* The API returns data in JSON format
+* The app extracts:
+
+  * Meaning of the word
+  * Example sentence
+* The result is displayed on the webpage
+
+---
+
+## ⚠️ Error Handling
+
+* Displays message if input is empty
+* Shows **"Word not found"** if the word does not exist in the API
+
+---
+
+## 🎯 Future Enhancements
+
+* 🔊 Add pronunciation (audio)
+* 🌍 Support multiple languages
+* 📚 Show synonyms and antonyms
+* 🎨 Improve UI design
+
+---
+
+## 🙌 Conclusion
+
+This project demonstrates how to use **JavaScript fetch API** to interact with external APIs and build a real-time application.
+It is useful for beginners to understand **API integration and DOM manipulation**.
+
+---
+
+## 👩‍💻 Author
+
+**Rohini G**
+
+---
 
