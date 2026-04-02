@@ -1,100 +1,15 @@
-# Ethnotech_Mini_Project
+📖 Dictionary Web App
 
-# 📖 Dictionary Web App
+The Dictionary Web App is a web-based application that allows users to enter any English word and get its meaning and example. It is built using HTML, CSS, and JavaScript. The application uses an external API to fetch real-time data. It demonstrates API integration and DOM manipulation. The project is useful for learning how to work with live data in web development.
 
-## 📌 Project Overview
+📍 My Location Web App
 
-The **Dictionary Web App** is a simple and interactive web application built using **HTML, CSS, and JavaScript**.
-It allows users to enter any English word and instantly get its **meaning** along with an **example sentence**.
+The My Location Web App allows users to find their current location by enabling location access. It uses the browser’s Geolocation API to fetch latitude and longitude. The project is developed using HTML, CSS, and JavaScript. It demonstrates how web applications interact with device features. It is useful for understanding real-time location tracking.
 
----
+🖼️ Picture Rotation Web App
 
-## 🚀 Features
+The Picture Rotation Web App allows users to rotate an image left or right using buttons. It is developed using HTML, CSS, and JavaScript. The project uses CSS transform properties to rotate images. It demonstrates DOM manipulation and event handling. It is useful for understanding interactive UI design.
 
-* 🔍 Search for any English word
-* 📘 Displays the **definition (meaning)**
-* 📝 Shows an **example sentence** (if available)
-* ⚡ Fast and responsive user interface
-* ❌ Error handling for invalid or unknown words
+💼 Portfolio Website
 
----
-
-## 🛠️ Technologies Used
-
-* **HTML** – Structure of the web page
-* **CSS** – Styling and layout
-* **JavaScript** – Logic and API handling
-* **Free Dictionary API** – Fetching word data
-
----
-
-## 🌐 API Used
-
-This project uses the following free API:
-👉 https://api.dictionaryapi.dev/
-
----
-
-## 📂 Project Structure
-
-```
-Dictionary-Project/
-│── index.html
-│── style.css
-│── script.js
-```
-
----
-
-## ▶️ How to Run the Project
-
-1. Download or clone the repository
-2. Open the project folder
-3. Run the `index.html` file in your browser
-4. Enter a word in the input box
-5. Click the search button to view results
-
----
-
-## 💡 How It Works
-
-* The user enters a word in the input field
-* JavaScript sends a request to the dictionary API
-* The API returns data in JSON format
-* The app extracts:
-
-  * Meaning of the word
-  * Example sentence
-* The result is displayed on the webpage
-
----
-
-## ⚠️ Error Handling
-
-* Displays message if input is empty
-* Shows **"Word not found"** if the word does not exist in the API
-
----
-
-## 🎯 Future Enhancements
-
-* 🔊 Add pronunciation (audio)
-* 🌍 Support multiple languages
-* 📚 Show synonyms and antonyms
-* 🎨 Improve UI design
-
----
-
-## 🙌 Conclusion
-
-This project demonstrates how to use **JavaScript fetch API** to interact with external APIs and build a real-time application.
-It is useful for beginners to understand **API integration and DOM manipulation**.
-
----
-
-## 👩‍💻 Author
-
-**Rohini G**
-
----
-
+The Portfolio Website is a personal web application used to showcase skills, projects, and contact information. It is built using HTML, CSS, and JavaScript. The website includes sections like About, Skills, Projects, and Contact. It demonstrates responsive design and structured web development. It helps in creating a professional online presence for interviews.
