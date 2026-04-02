@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dictionary App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>📖 Dictionary App</h1>
+
+    <input type="text" id="wordInput" placeholder="Enter a word">
+    <button onclick="searchWord()">Search</button>
+
+    <p id="result"></p>
+</div>
+
+<script>
+async function searchWord() {
+    let word = document.getElementById("wordInput").value;
+    let result = document.getElementById("result");
+
+    if (word === "") {
+        result.innerHTML = "Please enter a word!";
+        return;
+    }
+
+    try {
+        let response = await fetch("https://api.dictionaryapi.dev/api/v2/entries/en/" + word);
+        let data = await response.json();
+
+        let meaning = data[0].meanings[0].definitions[0].definition;
+        let example = data[0].meanings[0].definitions[0].example || "No example available";
+
+        result.innerHTML = `
+            <b>Meaning:</b> ${meaning} <br><br>
+            <b>Example:</b> ${example}
+        `;
+    } catch (error) {
+        result.innerHTML = "Word not found ❌";
+    }
+}
+</script>
+
+</body>
+</html>
