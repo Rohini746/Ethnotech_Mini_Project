@@ -1,1 +1,33 @@
+# 🖼️ Picture Rotation Web App
 
+## 📌 Project Overview
+The **Picture Rotation Web App** is a simple and interactive web-based project developed using **HTML, CSS, and JavaScript**.  
+This application allows users to rotate an image in different directions such as left or right with the help of buttons.
+
+The project demonstrates basic concepts of **DOM manipulation**, **CSS transforms**, and **user interaction**.
+
+---
+
+## 🚀 Features
+- 🔄 Rotate image clockwise (right)
+- 🔁 Rotate image counterclockwise (left)
+- 🎯 Smooth and responsive rotation effect
+- ⚡ Simple and user-friendly interface
+- 🖼️ Works with any image
+
+---
+
+## 🛠️ Technologies Used
+- **HTML** – Structure of the webpage  
+- **CSS** – Styling and rotation using transform properties  
+- **JavaScript** – Logic for handling rotation events  
+
+---
+
+## 📂 Project Structure
+```text
+Picture-Rotation-Project/
+│── index.html
+│── style.css
+│── script.js
+│── image.jpg
